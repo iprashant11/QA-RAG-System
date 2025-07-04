@@ -67,3 +67,12 @@ return_source_documents=True
  Combines factual accuracy (from documents) + natural language generation (LLM)
  Handles semantic questions, not just keyword matches
  Can work offline (great for sensitive or secure applications)
+
+
+Command to run the executable files
+1. First we need to convert the .ipynb file to the .py using below command in cmd
+   C:\Users\prashanti> jupyter nbconvert --to script QAUSINGOFFLINEMODEL.ipynb
+2. now open the anaconda prompt and run the following commands
+   activate the conda environment
+   conda activate rag-env
+   streamlit run QARAGUI.py
