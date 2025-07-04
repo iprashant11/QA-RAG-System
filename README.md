@@ -71,7 +71,7 @@ return_source_documents=True
 
 Command to run the executable files
 1. First we need to convert the .ipynb file to the .py using below command in cmd
-   C:\Users\prashanti> jupyter nbconvert --to script QAUSINGOFFLINEMODEL.ipynb
+   C:\Users\prashanti> jupyter nbconvert --to script QARAGUI.ipynb
 2. now open the anaconda prompt and run the following commands
    activate the conda environment
    conda activate rag-env
